@@ -6,4 +6,4 @@ On y trouve à la fois les projections de scores nationaux en % (type=score) et 
 
 N'hésitez pas à faire des ajouts & corrections, bonne utilisation !
 
-Elias
+(Librement inspiré de https://github.com/nsppolls/nsppolls)
