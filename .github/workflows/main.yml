@@ -22,9 +22,12 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
+    - name: Install dependecies
+      uses: VaultVulp/action-pipenv@v2.0.1
+      with:
+        command: install -d
+    - name: Pipenv shell
       run: |
-        pipenv install
         pipenv shell
     - name: Données Présidentielles
       run: |
