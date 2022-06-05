@@ -19,12 +19,16 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install dependecies
-      uses: VaultVulp/action-pipenv@v2.0.1
-      with:
-        command: install -d
+        
+    - name: Install pipenv
+      run: pip install pipenv
+      
+    - name: Install dependencies
+      run: pipenv install
+      
     - name: Données Présidentielles
       run: |
-        python src/loess_mean.py
-        python src/graphique.py
+        pipenv run python src/loess_mean.py
+        pipenv run python src/graphique.py
+        
     - uses: stefanzweifel/git-auto-commit-action@v4
