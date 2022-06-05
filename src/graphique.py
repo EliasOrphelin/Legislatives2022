@@ -76,7 +76,32 @@ fig.add_shape(type="line",
     )
 )
 
-fig.update_xaxes(range=[data["Ensemble"]["fin_enquete"][0], "2022-06-24"])
+fig.update_xaxes(range=[data["Ensemble"]["fin_enquete"][0], "2022-06-20"])
 fig.update_yaxes(range=[0, 360])
 
-fig.write_image("SondagesLegislativesLoess.jpeg", width=1000, height=700, scale=2)
+fig.add_annotation(
+    {
+        "x": 0.5,
+        "y": 1.15,
+        "xref": "paper",
+        "yref": "paper",
+        "text": f"Projecion des sièges à l'élection présidentielle",
+        "font": {"size": 25,},
+        "xanchor": "center",
+        "showarrow": False,
+    })
+
+fig.add_annotation(
+    {
+        "x": 0.52,
+        "y": 1.07,
+        "xref": "paper",
+        "yref": "paper",
+        "text": f"Aggrégation de l'ensemble des sondages (Ipsos, Ifop, Opinionway...) • @ElecTracker • electracker.fr • Données Elias Orphelin • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
+        "font": {"size": 15},
+        "xanchor": "center",
+        "showarrow": False,
+    }
+)
+
+fig.write_image("SondagesLegislativesLoess.jpeg", width=1100, height=700, scale=2)
