@@ -85,7 +85,7 @@ fig.add_annotation(
         "y": 1.15,
         "xref": "paper",
         "yref": "paper",
-        "text": f"Projecion des sièges aux élections législatives",
+        "text": f"Projection des sièges aux élections législatives",
         "font": {"size": 25,},
         "xanchor": "center",
         "showarrow": False,
