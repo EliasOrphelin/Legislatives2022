@@ -153,14 +153,14 @@ IPSOS,16/05/2022,19/05/2022,sieges-haut,Ensemble,330,Le Monde,11247,https://www.
 IPSOS,16/05/2022,19/05/2022,sieges-haut,LR,65,Le Monde,11247,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-2022-le-point-trois-semaines-du-scrutin
 IPSOS,16/05/2022,19/05/2022,sieges-haut,RN,45,Le Monde,11247,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-2022-le-point-trois-semaines-du-scrutin
 IPSOS,16/05/2022,19/05/2022,sieges-haut,Autre,10,Le Monde,11247,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-2022-le-point-trois-semaines-du-scrutin
-IPSOS,17/05/2022,19/05/2022,score,ExtG,0.5,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,NUPES,31,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,Ensemble,26,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,LR,9,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,DLF,2,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,RN,20,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,R,5.5,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
-IPSOS,17/05/2022,19/05/2022,score,Autre,6,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,ExtG,0.5,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,NUPES,31,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,Ensemble,26,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,LR,9,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,DLF,2,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,RN,20,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,R,5.5,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
+Cluster17,17/05/2022,19/05/2022,score,Autre,6,,2788,https://cluster17.com/barometre-hebdomadaire-s20-legislatives-2022/
 Harris,20/05/2022,23/05/2022,score,ExtG,3,Challenges,2331,https://harris-interactive.fr/opinion_polls/barometre-dintentions-de-vote-aux-elections-legislatives-de-2022-vague-49/
 Harris,20/05/2022,23/05/2022,score,NUPES,28,Challenges,2331,https://harris-interactive.fr/opinion_polls/barometre-dintentions-de-vote-aux-elections-legislatives-de-2022-vague-49/
 Harris,20/05/2022,23/05/2022,score,Ensemble,26,Challenges,2331,https://harris-interactive.fr/opinion_polls/barometre-dintentions-de-vote-aux-elections-legislatives-de-2022-vague-49/
@@ -341,3 +341,26 @@ IFOP,03/06/2022,06/06/2022,sieges-haut,LR,55,LCI,1840,https://www.tf1info.fr/pol
 IFOP,03/06/2022,06/06/2022,sieges-haut,RN,45,LCI,1840,https://www.tf1info.fr/politique/sondage-exclusif-lci-tf1-elections-legislatives-2022-l-union-de-gauche-nupes-de-melenchon-repasse-devant-ensemble-parti-larem-de-la-majorite-de-macron-2222326.html?utm_medium=Social&utm_source=Twitter&Echobox=1654614113#xtor=CS5-113
 IFOP,03/06/2022,06/06/2022,sieges-haut,R,2,LCI,1840,https://www.tf1info.fr/politique/sondage-exclusif-lci-tf1-elections-legislatives-2022-l-union-de-gauche-nupes-de-melenchon-repasse-devant-ensemble-parti-larem-de-la-majorite-de-macron-2222326.html?utm_medium=Social&utm_source=Twitter&Echobox=1654614113#xtor=CS5-113
 IFOP,03/06/2022,06/06/2022,sieges-haut,Autre,12,LCI,1840,https://www.tf1info.fr/politique/sondage-exclusif-lci-tf1-elections-legislatives-2022-l-union-de-gauche-nupes-de-melenchon-repasse-devant-ensemble-parti-larem-de-la-majorite-de-macron-2222326.html?utm_medium=Social&utm_source=Twitter&Echobox=1654614113#xtor=CS5-113
+IPSOS,03/06/2022,06/06/2022,score,ExtG,1,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,NUPES,27.5,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,DivG,2,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,DivEco,2.5,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,Ensemble,28,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,DivC,0.5,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,LR,11,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,DLF,1,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,RN,20,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,R,5.5,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,score,Autre,1,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-bas,NUPES,160,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-bas,DivG,8,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-bas,Ensemble,275,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-bas,LR,30,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-bas,RN,20,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-bas,Autre,8,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-haut,NUPES,200,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-haut,DivG,18,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-haut,Ensemble,315,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-haut,LR,55,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-haut,RN,55,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
+IPSOS,03/06/2022,06/06/2022,sieges-haut,Autre,18,Le Monde,11247,https://www.ipsos.com/sites/default/files/ct/news/documents/2022-06/Rapport%20Ipsos_CEVIPOF%20LEMONDE%20FJJ%20_Enque%CC%82te%20e%CC%81lectorale%202022%20vague%203-6%20juin%202022.pdf
