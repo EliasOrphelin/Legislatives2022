@@ -11,9 +11,9 @@ couleurs={
     "ExtG": "red",
     "RN": "black",
     "LR": "blue",
-    "R": "pink",
+    "R": "#753f06",
     "DivEco": "green",
-    "DivG": "lightblue",
+    "DivG": "#fc5db8",
     "Autre": "grey"
 }
 
