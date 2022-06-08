@@ -26,10 +26,10 @@ def export_json():
     with open('SondagesLegislatives2022Loess.json', 'w') as outfile:
         json.dump(dict_json, outfile)
 
-def get_loess_mean(df_parti):
+def get_loess_mean(df_parti, frac=0.8):
     fin_enquete_ts = pd.to_datetime(df_parti["fin_enquete"], format="%d/%m/%Y").astype(np.int64) // 10 ** 9
     y = df_parti.intentions.values
-    xout, yout, wout = loess_1d.loess_1d(fin_enquete_ts.values, y, xnew=None, degree=1, frac=0.8, npoints=None, rotate=False, sigy=None)
+    xout, yout, wout = loess_1d.loess_1d(fin_enquete_ts.values, y, xnew=None, degree=1, frac=frac, npoints=None, rotate=False, sigy=None)
     xout_dt = [datetime.datetime.fromtimestamp(date).strftime('%Y-%m-%d') for date in xout]
     return xout_dt, yout, y
 
@@ -48,7 +48,8 @@ def main():
             xout_dt, yout_sieges_bas_loess, yout_sieges_bas = get_loess_mean(df_parti_sieges_bas)
 
             df_parti_score = df_parti[df_parti["type"]=="score"]
-            xout_dt_score, yout_score_loess, yout_score = get_loess_mean(df_parti_score)
+            df_parti_score = df_parti_score[df_parti_score["nom_institut"]!="Cluster17"]
+            xout_dt_score, yout_score_loess, yout_score = get_loess_mean(df_parti_score, frac=0.8)
 
             add_to_json(
                 parti=parti, 

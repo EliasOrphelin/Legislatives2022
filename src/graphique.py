@@ -11,7 +11,10 @@ couleurs={
     "ExtG": "red",
     "RN": "black",
     "LR": "blue",
-    "R": "pink"
+    "R": "pink",
+    "DivEco": "green",
+    "DivG": "lightblue",
+    "Autre": "grey"
 }
 
 print(data.keys())
@@ -46,10 +49,21 @@ def graphique_sieges():
                     mode="lines+text",
                     marker_color=couleurs.get(parti, "black"),
                     name=parti,
+                    showlegend=False,
                     text=[""] * (len(data[parti]["sieges_haut_loess"])-1) + ["  " + str(round(data[parti]["sieges_bas_loess"][-1]))],
                     textposition="middle right",
                     textfont=dict(color=couleurs.get(parti, "black")),
                 )
+            )
+
+            fig.add_annotation(
+                x=data[parti]["fin_enquete"][-1],
+                y=(data[parti]["sieges_bas_loess"][-1]+data[parti]["sieges_haut_loess"][-1])/2,
+                text="     <b>" + parti + "</b>",
+                ay=0,
+                showarrow=False,
+                xanchor='left',
+                font=dict(color=couleurs.get(parti, "black"))
             )
 
             for numero_sondage in range(len(data[parti]["sieges_bas"])):
@@ -104,7 +118,7 @@ def graphique_sieges():
             "y": 1.15,
             "xref": "paper",
             "yref": "paper",
-            "text": f"Projection des sièges aux élections législatives",
+            "text": f"<b>Projection des sièges aux élections législatives</b>",
             "font": {"size": 25,},
             "xanchor": "center",
             "showarrow": False,
@@ -116,7 +130,7 @@ def graphique_sieges():
             "y": 1.07,
             "xref": "paper",
             "yref": "paper",
-            "text": f"Aggrégation de l'ensemble des sondages (Ipsos, Ifop, Opinionway...) • @ElecTracker • electracker.fr • Données Elias Orphelin • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
+            "text": f"Aggrégation de l'ensemble des sondages • @ElecTracker • electracker.fr • Données Elias Orphelin • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
             "font": {"size": 15},
             "xanchor": "center",
             "showarrow": False,
@@ -130,7 +144,7 @@ def graphique_score():
 
     for parti in data:
         
-        if parti not in ["Autre", "ExtG", "DivEco", "PA", "DivG"]:
+        if parti not in []: #["Autre", "ExtG", "DivEco", "PA", "DivG"]:
             print(parti)
             fig.add_trace(
                 go.Scatter(
@@ -149,8 +163,10 @@ def graphique_score():
                     y=data[parti]["score_loess"],
                     marker_color=couleurs.get(parti, "black"),
                     mode="lines+text",
-                    showlegend=True,
-                    text=[""] * (len(data[parti]["score"])-1) + ["  " + str(round(data[parti]["score_loess"][-1], 1)) + " %"],
+                    line_width=15,
+                    opacity=0.6,
+                    showlegend=False,
+                    text=[""] * (len(data[parti]["score"])-1) + ["  " + str(round(data[parti]["score_loess"][-1], 1)) + " % <b>" + parti + "</b>"],
                     textposition="middle right",
                     textfont=dict(color=couleurs.get(parti, "black")),
                     name=parti
@@ -192,7 +208,7 @@ def graphique_score():
             "y": 1.15,
             "xref": "paper",
             "yref": "paper",
-            "text": f"Intentions de vote aux élections législatives",
+            "text": f"<b>Intentions de vote aux élections législatives</b>",
             "font": {"size": 25,},
             "xanchor": "center",
             "showarrow": False,
@@ -204,7 +220,7 @@ def graphique_score():
             "y": 1.07,
             "xref": "paper",
             "yref": "paper",
-            "text": f"Aggrégation de l'ensemble des sondages (Ipsos, Ifop, Opinionway...) • @ElecTracker • electracker.fr • Données Elias Orphelin • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
+            "text": f"Aggrégation de l'ensemble des sondages (sans Cluster17) • @ElecTracker • electracker.fr • Données Elias Orphelin • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
             "font": {"size": 15},
             "xanchor": "center",
             "showarrow": False,
