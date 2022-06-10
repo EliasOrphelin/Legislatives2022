@@ -373,7 +373,7 @@ IPSOS,06/06/2022,07/06/2022,score,DivC,0.5,France TV,2000,https://www.ipsos.com/
 IPSOS,06/06/2022,07/06/2022,score,LR,11,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,score,DLF,1,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,score,RN,19.5,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
-IPSOS,06/06/2022,07/06/2022,score,RN,6,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
+IPSOS,06/06/2022,07/06/2022,score,R,6,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,score,Autre,1,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,sieges-bas,NUPES,175,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,sieges-bas,DivG,10,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
@@ -387,3 +387,34 @@ IPSOS,06/06/2022,07/06/2022,sieges-haut,Ensemble,300,France TV,2000,https://www.
 IPSOS,06/06/2022,07/06/2022,sieges-haut,LR,55,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,sieges-haut,RN,50,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
 IPSOS,06/06/2022,07/06/2022,sieges-haut,Autre,10,France TV,2000,https://www.ipsos.com/fr-fr/legislatives-2022/legislatives-la-majorite-presidentielle-pourrait-perdre-la-majorite-absolue-lassemblee-nationale
+Cluster17,07/06/2022,09/06/2022,score,ExtG,0.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,NUPES,29.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,DivG,2.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,Ensemble,26,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,DivC,1,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,LR,10.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,DivD,1,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,DLF,1.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,RN,17.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,R,5.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Cluster17,07/06/2022,09/06/2022,score,Autre,4.5,,2608,https://twitter.com/Cluster_17/status/1535139704143765507/photo/1
+Elabe,08/06/2022,09/06/2022,score,ExtG,1.5,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,NUPES,26.5,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,DivG,3,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,Ensemble,27,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,LR,11,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,DivD,1,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,RN,19.5,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,R,4.5,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,DLF,1.5,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,score,Autre,4.5,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-bas,NUPES,165,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-bas,Ensemble,280,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-bas,LR,40,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-bas,RN,25,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-bas,Autre,10,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-haut,NUPES,190,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-haut,Ensemble,320,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-haut,LR,60,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-haut,RN,50,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
+Elabe,08/06/2022,09/06/2022,sieges-haut,Autre,15,BFM,2000,https://www.bfmtv.com/politique/elections/legislatives/sondage-bfmtv-legislatives-ensemble-et-la-nupes-au-coude-a-coude-au-premier-tour_AN-202206100019.html
