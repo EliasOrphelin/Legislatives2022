@@ -19,6 +19,16 @@ couleurs={
 
 print(data.keys())
 
+resultats_partis = {
+    "Ensemble": 245,
+    "NUPES": 131,
+    "ExtG": 0,
+    "RN": 89,
+    "LR": 61,
+    "R": 0,
+    "DivEco": 0,
+    "DivG": 0,
+}
 def graphique_sieges():
     fig = go.Figure()
 
@@ -26,6 +36,20 @@ def graphique_sieges():
         
         if parti not in ["Autre", "ExtG", "DivEco", "PA", "DivG"]:
             print(parti)
+            fig.add_trace(
+                go.Scatter(
+                    x=["2022-06-19"],
+                    y=[resultats_partis[parti]],
+                    marker_color=couleurs.get(parti, "black"),
+                    marker_size=15,
+                    mode="markers+text",
+                    showlegend=False,
+                    text=[resultats_partis[parti]],
+                    textposition="middle right",
+                    textfont=dict(color=couleurs.get(parti, "black")),
+                )
+            )
+
             fig.add_trace(
                 go.Scatter(
                     x=data[parti]["fin_enquete"],
@@ -109,7 +133,7 @@ def graphique_sieges():
         )
     )
 
-    fig.update_xaxes(range=[data["Ensemble"]["fin_enquete"][0], "2022-06-20"])
+    fig.update_xaxes(range=[data["Ensemble"]["fin_enquete"][0], "2022-06-21"])
     fig.update_yaxes(range=[0, 360])
 
     fig.add_annotation(
@@ -118,7 +142,7 @@ def graphique_sieges():
             "y": 1.15,
             "xref": "paper",
             "yref": "paper",
-            "text": f"<b>Projection des sièges aux élections législatives</b>",
+            "text": f"<b>Projection des sièges aux élections législatives 2022</b>",
             "font": {"size": 25,},
             "xanchor": "center",
             "showarrow": False,
@@ -130,7 +154,7 @@ def graphique_sieges():
             "y": 1.07,
             "xref": "paper",
             "yref": "paper",
-            "text": f"Agrégation de l'ensemble des sondages • @ElecTracker • electracker.fr • Données Elias Orphelin • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
+            "text": f"Agrégation de l'ensemble des sondages • dernier sondage : {data['Ensemble']['fin_enquete'][-1]}",
             "font": {"size": 15},
             "xanchor": "center",
             "showarrow": False,
